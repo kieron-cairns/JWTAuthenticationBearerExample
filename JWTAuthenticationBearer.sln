@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTAuthenticationBearer", "JWTAuthenticationBearer\JWTAuthenticationBearer.csproj", "{BDAC37C5-2B20-48E5-9385-FF2D74D284DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDAC37C5-2B20-48E5-9385-FF2D74D284DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDAC37C5-2B20-48E5-9385-FF2D74D284DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDAC37C5-2B20-48E5-9385-FF2D74D284DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDAC37C5-2B20-48E5-9385-FF2D74D284DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F8E88E4-CACA-42F5-855B-2A3AB0BED1EA}
+	EndGlobalSection
+EndGlobal
