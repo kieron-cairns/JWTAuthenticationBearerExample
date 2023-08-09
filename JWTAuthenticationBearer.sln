@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTAuthenticationBearer", "JWTAuthenticationBearer\JWTAuthenticationBearer.csproj", "{BDAC37C5-2B20-48E5-9385-FF2D74D284DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JWTAuthenticationBearer", "JWTAuthenticationBearer\JWTAuthenticationBearer.csproj", "{BDAC37C5-2B20-48E5-9385-FF2D74D284DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTAuthenticationBearerTests", "JWTAuthenticationBearerTests\JWTAuthenticationBearerTests.csproj", "{4C417C2E-174A-4E4F-AA20-35A15C109444}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BDAC37C5-2B20-48E5-9385-FF2D74D284DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDAC37C5-2B20-48E5-9385-FF2D74D284DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDAC37C5-2B20-48E5-9385-FF2D74D284DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C417C2E-174A-4E4F-AA20-35A15C109444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C417C2E-174A-4E4F-AA20-35A15C109444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C417C2E-174A-4E4F-AA20-35A15C109444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C417C2E-174A-4E4F-AA20-35A15C109444}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
