@@ -8,11 +8,10 @@ using System.Text;
 
 namespace JWTAuthenticationBearer.Repository
 {
-    public class JWTRepository
+    public class JWTRepository : IJWTRepository 
     {
         private readonly IConfiguration _configuration;
         private readonly IJwtHandlerWrapper _jwtHandler;
-        private readonly string _jwtSecret;
 
         public JWTRepository(IConfiguration configuration, IJwtHandlerWrapper jwtHandler)
         {
@@ -39,7 +38,6 @@ namespace JWTAuthenticationBearer.Repository
                     signingCredentials: credentials);
 
                 var tokenString = _jwtHandler.WriteToken(token);
-
 
                 return tokenString;
             }

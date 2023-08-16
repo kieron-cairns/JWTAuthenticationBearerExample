@@ -1,5 +1,6 @@
 using JWTAuthenticationBearer.Interfaces;
 using JWTAuthenticationBearer.Models;
+using JWTAuthenticationBearer.Repository;
 using JWTAuthenticationBearer.Wrappers;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
@@ -21,7 +22,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+builder.Services.AddScoped<IJWTRepository, JWTRepository>();
 
 // JWT Authentication
 var jwtSecretToken = builder.Configuration["Jwt:Secret"];

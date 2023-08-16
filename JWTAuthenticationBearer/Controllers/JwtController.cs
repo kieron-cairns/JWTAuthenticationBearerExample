@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using JWTAuthenticationBearer.Interfaces;
+using JWTAuthenticationBearer.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace JWTAuthenticationBearer.Controllers
 {
