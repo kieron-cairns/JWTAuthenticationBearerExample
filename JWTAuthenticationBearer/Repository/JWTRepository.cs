@@ -40,20 +40,10 @@ namespace JWTAuthenticationBearer.Repository
 
                 var tokenString = _jwtHandler.WriteToken(token);
 
-                // Configure token validation parameters
-                var validationParameters = new TokenValidationParameters
-                {
-                    ValidateIssuerSigningKey = true,
-                    IssuerSigningKey = securityKey,
-                    ValidateIssuer = true,
-                    ValidIssuer = _configuration["Jwt:Issuer"],
-                    ValidateAudience = true,
-                    ValidAudience = _configuration["Jwt:Audience"],
-                    ValidateLifetime = true // Enable validation of the token's lifetime
-                };
 
                 return tokenString;
             }
+
             catch(Exception ex)
             {
                 var error = ex.ToString();
